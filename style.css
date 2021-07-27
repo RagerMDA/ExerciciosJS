@@ -1,0 +1,55 @@
+/* === RESET === */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* === BODY === */
+body {
+  background: #dbdada;
+  font: normal 20pt arial;
+}
+
+/* === SESSÃO === */
+section {
+  border-radius: 0.25rem;
+  margin: auto;
+  padding: 7rem;
+  text-align: center;
+}
+
+/* === DIVISOR === */
+.divisor {
+  height: 1px;
+  background: #000000;
+}
+
+/* === BOTÃO === */
+button {
+  background-color: #acacac;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin: 0.25rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  font-family: sans-serif;
+  font-size: medium;
+  transition: background 0.3s;
+  border: transparent;
+}
+
+button:hover {
+  background-color: #727171;
+}
+
+/* === LETRAS === */
+p {
+  margin: 0.5rem;
+}
+
+h3 {
+  font-size: 45px;
+}
